@@ -12,25 +12,32 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body> 
-  <div class="container">
-    <nav class="navbar">
-      <div class="navbar-brand">
-        <h1>
-          <a href="index.html">
-            <img src="assets/images/pl.svg" height="65" alt="Logo">
-          </a>
-        </h1>
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <div class="navbar-brand">
+          <h1>
+            <a href="index.html">
+              <img src="assets/images/pl.svg" height="65" alt="Logo">
+            </a>
+          </h1>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPrincipal" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Main menu -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarPrincipal">
+          <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="quienes.html" class="nav-link">¿Quién es?</a></li>
+            <li class="nav-item"><a href="plataforma.html" class="nav-link">Plataforma</a></li>
+            <li class="nav-item"><a href="afiliaciones.html" class="nav-link">Afiliaciones</a></li>
+            <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+          </ul>
+        </div>
       </div>
-      <!-- Main menu -->
-      <ul class="menu">
-        <li class="menu-item"><a href="index.html" class="menu-link">Home</a></li>
-        <li class="menu-item"><a href="quienes.html" class="menu-link">¿Quién es?</a></li>
-        <li class="menu-item"><a href="plataforma.html" class="menu-link">Plataforma</a></li>
-        <li class="menu-item"><a href="afiliaciones.html" class="menu-link">Afiliaciones</a></li>
-        <li class="menu-item"><a href="contacto.html" class="menu-link">Contacto</a></li>
-      </ul>
     </nav>    
-  </div>
+  
   <header class="header-main">
     <div class="container">
       <div class="card-container">
@@ -44,16 +51,22 @@
   <!-- Inicia main -->
   <main>
     <div class="container">
-      <section class="row">        
-        <figure class="image-row-item col-12">          
-          <img src="assets/images/milei-01.jpg" alt="Milei con jóvenes" class="image-secondary img-responsive">          
-        </figure>  
-        <figure class="image-row-item col-12">          
-          <img src="assets/images/milei-02.webp" alt="Milei" class="image-secondary img-responsive">          
-        </figure>
-        <figure class="image-row-item col-12">          
-          <img src="assets/images/milei-03.jpg" alt="Milei" class="image-secondary img-responsive">          
-        </figure>      
+      <section class="row">    
+        <div class="col-md-4">   
+          <figure class="">          
+            <img src="assets/images/milei-01.jpg" alt="Milei con jóvenes" class="image-secondary img-responsive">          
+          </figure>  
+        </div> 
+        <div class="col-md-4">
+          <figure class="">          
+            <img src="assets/images/milei-02.webp" alt="Milei" class="image-secondary img-responsive">          
+          </figure>
+        </div>
+        <div class="col-md-4">
+          <figure>          
+            <img src="assets/images/milei-03.jpg" alt="Milei" class="image-secondary img-responsive">          
+          </figure>  
+        </div>    
       </section>
     </div>
     <aside class="video aside-home">

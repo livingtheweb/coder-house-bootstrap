@@ -93,14 +93,14 @@ figure {
   .menu-link:hover {    
     color:#52D5F2;    
   }
-.container {
+/* .container {
   width:1170px;
   height:auto;
   margin:0px auto;
   padding-left:15px;
   padding-right:15px;
   max-width:100%;
-}
+} */
 .inner-container { 
   justify-content: space-between;
   align-items: center;
@@ -137,11 +137,11 @@ section {
   border:solid 2px #F25C05;
   padding:8px;
 }
-.row {
+/* .row {
   display:flex;
   flex-direction:row;
   flex-wrap: wrap;
-}
+} */
 .row-center {
   align-items: center;
   justify-content: space-around;
