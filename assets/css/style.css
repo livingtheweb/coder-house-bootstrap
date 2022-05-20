@@ -168,6 +168,19 @@ section {
     "right"
   ;
 }
+.mi-palabra .logo-leon {
+  animation-name: girar;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes girar {
+  from {
+    transform:rotatey(0deg)
+  }
+  to {    
+    transform:rotatey(360deg)
+  }
+}
 .aside {
   grid-area:aside;
 }
@@ -313,8 +326,5 @@ tr:nth-child(even) {
       "aside right"
     ;
     margin-top:30px;
-  }  
-  .contact {
-    width:50%;
-  }
+  }    
 }
